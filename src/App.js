@@ -19,10 +19,10 @@ class App extends React.Component {
     }
     else{
       args = args[0].trim();
-      if (args == "..") {
+      if (args === "..") {
         newCurDir = this.state.curDir.substring(0, this.state.curDir.lastIndexOf("/")) || "/";
       }
-      else if (args == "/") {
+      else if (args === "/") {
         newCurDir = args;
       }
       else {
