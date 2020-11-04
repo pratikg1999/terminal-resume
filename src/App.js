@@ -80,7 +80,7 @@ class App extends React.Component {
 
   state = {
     username: "pratik",
-    system: "pratik-Predator-G3-572",
+    system: "IIIT-NR",
     curDir: "/home",
     userSysColor: "#00ff00",
     curDirColor: "#0000ff",
