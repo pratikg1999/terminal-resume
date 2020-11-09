@@ -52,7 +52,19 @@ p{
 }
 
 span[contenteditable]#new-inp{
+  /* height: 100%;
+  overflow: hidden; */
   margin: 0px 2px;
   outline: 0px solid transparent;
+}
+
+.new{
+  /* overflow: hidden; clear the float */
+  height: 100%;
+}
+
+.left-prompts {
+  /* float: left; */
+  display: inline;
 }
 
